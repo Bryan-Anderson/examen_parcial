@@ -1,6 +1,7 @@
 Algoritmo CalcularDescuento
     Definir monto_compra, descuento como Real
-	
+	// entada monto de la compra
+        // salida es el descuento
     Escribir "Ingrese el monto de la compra: "
     Leer monto_compra
 	
