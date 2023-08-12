@@ -1,0 +1,20 @@
+Algoritmo CalcularDescuento
+    Definir monto_compra, descuento como Real
+	
+    Escribir "Ingrese el monto de la compra: "
+    Leer monto_compra
+	
+    Si monto_compra >= 500 y monto_compra <= 1000 Entonces
+        descuento = monto_compra * 0.05
+    Fin Si
+	
+    Si monto_compra > 1000 y monto_compra <= 7000 Entonces
+        descuento = monto_compra * 0.11
+    Fin Si
+	
+    Si monto_compra > 15000 Entonces
+        descuento = monto_compra * 0.18
+    Fin Si
+	
+    Escribir "El descuento aplicado es: ", descuento
+Fin Algoritmo
